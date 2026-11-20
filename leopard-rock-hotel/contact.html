@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact Us | Leopard Rock Hotel</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <a class="logo" href="index.html">LEOPARD ROCK HOTEL</a>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="booking.html">Booking</a>
+    <a href="contact.html" class="active">Contact Us</a>
+  </nav>
+</header>
+<section>
+  <h2>Contact Us</h2>
+  <p style="text-align:center;margin-bottom:24px">Leopard Rock Hotel &bull; Phone: +263 784 658 152 &bull; Email: info@leopardrock.com</p>
+  <div id="message" class="message"></div>
+  <form id="contactForm">
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" required>
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" required>
+    <label for="msg">Message</label>
+    <textarea id="msg" name="message" rows="5" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+<footer>&copy;  Leopard Rock Hotel. All rights reserved.</footer>
+<script src="script.js"></script>
+</body>
+</html>
